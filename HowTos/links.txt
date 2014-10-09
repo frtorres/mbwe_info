@@ -1,0 +1,3 @@
+http://git-scm.com/book/en/Customizing-Git-Git-Configuration
+
+
