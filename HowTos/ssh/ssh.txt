@@ -1,0 +1,35 @@
+Howto mbwe-ssh install
+MBWE guide
+Oct 19,2014.
+--------------------------------------------------------
+
+0.- see folder tree.
+original ssh service was loaded form /etc/init.d/_SK50...
+
+- inactivate ssh commmenting lines on that scrip.
+- seems a S50sshd was regenerated with commented lines.
+specifically after includin this line:
+
+ssh stream tcp nowait root /opt/sbin/sshd sshd -i
+
+on /etc/inetd.conf
+
+1.- upgrade ssh.
+
+see: http://mybookworld.wikidot.com/update-ssh
+
+
+2.- see this files:
+
+/var/mariachi # find / -name "*sshd*"
+/etc/sshd_config
+/etc/init.d/_SK50sshd
+/etc/init.d/S50sshd
+/etc/sshd_config.orig
+/opt/etc/init.d/S40sshd
+/opt/etc/openssh/sshd_config
+/opt/sbin/sshd
+
+
+
+

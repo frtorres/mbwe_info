@@ -1,0 +1,10 @@
+
+/opt/bin/ipkg install git
+
+To allow all the users to access it, you have tow choices, add the /opt/bin to your $PATH or link git in /usr/bin. I'll cover the second one :
+
+ln -s /opt/bin/git /usr/bin/git
+
+That's it, git should now work.
+
+

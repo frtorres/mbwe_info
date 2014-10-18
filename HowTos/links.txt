@@ -1,3 +1,7 @@
 http://git-scm.com/book/en/Customizing-Git-Git-Configuration
 
+http://www.linuxquestions.org/questions/linux-networking-3/how-to-mount-or-access-wd-my-book-via-network-573141/
+http://ehc.ac/p/mediatomb/discussion/440751/thread/e42979c7/
+
+
 
