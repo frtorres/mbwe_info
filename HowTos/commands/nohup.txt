@@ -1,0 +1,16 @@
+mbwe howto commands
+mbwe Guide
+Oct 2014
+------------------------------
+
+
+# nohup command &
+
+In this example, I am going to find all programs and scripts with setuid bit set on, enter:
+# nohup find / -xdev -type f -perm +u=s -print > out.txt &
+
+Type exit or press CTRL + D exit from remote server.
+# exit
+
+
+	

@@ -21,6 +21,10 @@ see: http://mybookworld.wikidot.com/update-ssh
 
 2.- see this files:
 
+Original tree under /etc/
+ipkg tree under /opt/etc.... same  structure
+
+
 /var/mariachi # find / -name "*sshd*"
 /etc/sshd_config
 /etc/init.d/_SK50sshd

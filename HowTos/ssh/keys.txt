@@ -1,0 +1,22 @@
+mbwe howtos ssh
+mbwe guide
+Oct 2014
+------------------------------
+
+1. Key locations after ipkg ssh install.
+key server were auttomatically generated.
+
+2. cliente did not like this keys,, old ones were removed from client.
+
+/opt/etc/openssh # ls -lh
+-rw-r--r--    1 root     root       122.9k Feb 16  2012 moduli
+-rw-r--r--    1 root     root         1.5k Feb 16  2012 ssh_config
+-rw-------    1 root     root          668 Oct 16 20:07 ssh_host_dsa_key
+-rw-------    1 root     root          590 Oct 16 20:07 ssh_host_dsa_key.pub
+-rw-------    1 root     root          965 Oct 16 20:07 ssh_host_key
+-rw-------    1 root     root          630 Oct 16 20:07 ssh_host_key.pub
+-rw-------    1 root     root         1.6k Oct 16 20:07 ssh_host_rsa_key
+-rw-------    1 root     root          382 Oct 16 20:07 ssh_host_rsa_key.pub
+-rw-r--r--    1 root     root         3.4k Oct 16 20:07 sshd_config
+
+
