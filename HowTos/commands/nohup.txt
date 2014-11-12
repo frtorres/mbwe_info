@@ -4,6 +4,9 @@ Oct 2014
 ------------------------------
 
 
+#nohup sh /root/md5sumgen.sh . &
+
+
 # nohup command &
 
 In this example, I am going to find all programs and scripts with setuid bit set on, enter:

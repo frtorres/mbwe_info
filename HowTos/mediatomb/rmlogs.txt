@@ -1,0 +1,9 @@
+#
+echo
+echo truncating mediatomb logs
+echo
+truncate /opt/mediatomb/mediatomb.log --size 0
+
+ls -lah /opt/mediatomb/mediatomb.log
+ls -lah /opt/mediatomb/
+
